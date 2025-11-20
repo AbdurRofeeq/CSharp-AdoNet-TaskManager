@@ -1,0 +1,51 @@
+## .NET ##
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## IDE ##
+.vs/
+.idea/
+*.swp
+*.swo
+
+## Database ##
+*.db
+*.mdf
+*.ldf
+*.sdf
+
+## Logs ##
+*.log
+logs/
+[Tt]emp/
+
+## App Settings ##
+appsettings.json
+appsettings.*.json
+ConnectionStrings.config

@@ -5,7 +5,7 @@ namespace Ado.Net_Example.Data
     public class DatabaseHelper
     {
         private readonly string _connectionString;
-        public DatabaseHelper(string server = "localhost", string database = "taskmanager", string username = "root", string password = "k34532")
+        public DatabaseHelper(string server = "localhost", string database = "taskmanager", string username = "root", string password = "$$$$$$")
         {
             _connectionString = $"Server={server};Database={database};User Id={username};Password={password};";
             TestConnection();
